@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("/images/bg.jpg");
+    background: url("bg.jpg");
     background-size: cover;
     background-position: center;
     background-position: center;
@@ -44,27 +44,27 @@
   }
 
   .wrapper li:nth-child(1) span{
-    background-image: url("/images/bg.jpg");
+    background-image: url("bg.jpg");
     
   }
   .wrapper li:nth-child(2) span{
-    background-image: url("/images/bg1.jpg");
+    background-image: url("bg1.jpg");
     animation-delay: 3s;
   }
   .wrapper li:nth-child(3) span{
-    background-image: url("/images/bg2.jpg");
+    background-image: url("bg2.jpg");
     animation-delay:10s ;
   }
   .wrapper li:nth-child(4) span{
-    background-image: url("/images/bg3.jpg");
+    background-image: url("bg3.jpg");
     animation-delay: 15s;
   }
   .wrapper li:nth-child(5) span{
-    background-image: url("/images/bg4.jpg");
+    background-image: url("bg4.jpg");
     animation-delay:20s ;
   }
   .wrapper li:nth-child(6) span{
-    background-image: url("/images/bg5.jpg");
+    background-image: url("bg5.jpg");
     animation-delay: 25s;
   }
   @keyframes animate{
@@ -149,7 +149,6 @@
     font-size: 64px;
     line-height: 1;
     font-weight: 700;
-    /* margin: 20px 0 10px -30px;*/
   }
   .weather-box .description {
     font-size: 22px;
